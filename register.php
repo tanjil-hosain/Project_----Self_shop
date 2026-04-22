@@ -16,7 +16,7 @@
                         <h4>Create Account</h4>
                     </div>
                     <div class="card-body">
-                        <form action="register_action.php" method="POST">
+                        <form action="register_action.php" method="post">
                             <div class="mb-3">
                                 <label>Full Name</label>
                                 <input type="text" name="full_name" class="form-control" required>
