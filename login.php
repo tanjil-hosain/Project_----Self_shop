@@ -14,10 +14,10 @@
                         <h4>Self Shop Login</h4>
                     </div>
                     <div class="card-body">
-                        <form action="login_action.php" method="POST">
+                        <form action="login_action.php" method="post">
                             <div class="mb-3">
-                                <label>Email</label>
-                                <input type="email" name="email" class="form-control" required>
+                                <label>Email Or User Name</label>
+                                <input type="email" name="email_user" class="form-control" placeholder="Email or usename" required>
                             </div>
                             <div class="mb-3">
                                 <label>Password</label>
